@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+}
+
+h1,h3 {
+    color: yellow;    
+}
+
+button {
+    background-color: white; 
+    border: 2px solid #4CAF50;
+    color: BLACK;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+table{
+background-color: lightblue;
+}

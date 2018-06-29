@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guessing Game</title>
+<script src = "../../jquery-3.3.1.js"></script>
+<script>
+var b=1;
+var x= Math.floor(Math.random()*100 +1);
+var num =0;
+function myfunc(){ 	
+		num = $("#num").val();
+			if(num > x)
+				$("#out").append("<br>Less than "+ num );			
+			else if (num < x)
+				$("#out").append("<br>More than "+ num );
+			else
+				$("#out").append("<br>" + num + " is correct<br>In " + b + " tries, You got it right "     );										
+			b++;
+		$("#num").val("");
+}
+
+</script>
+</head>
+<body style='background-color:lightgreen'>
+<h1>Guess My Number ( Jquery )</h1>
+
+<form id="guess" action="javascript:myfunc()" autocomplete='off'>
+Guess My Number (1-100): <input id = "num" type="text" name="number" size=3>
+<br>
+<input type="submit" value="Guess">
+
+</form>
+<p id ="out"></p>
+<br><br>
+<a href="guess.html">Play Again</a>
+</body>
+</html>
