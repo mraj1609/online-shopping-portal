@@ -5,4 +5,7 @@ PreRequisites:
 3.copy all the contents in /var/www/html folder(for ubuntu 16.04)               
 
 Run:                              
-localhost/theme/login.php
+localhost/theme/login.php                       
+Admin details:                        
+username: raj                        
+password: 1234
