@@ -1,8 +1,8 @@
  <?php
-$servername = "localhost";
-$username = "root";
-$password = "mnirampivs";
-$dbname = "myDB";
+$servername = ""; // fill these with your setup specifics
+$username = "";
+$password = "";
+$dbname = "";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
