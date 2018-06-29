@@ -1,4 +1,4 @@
-online shopping portal                                
+Online Shopping Portal                                
 PreRequisites:                                  
 1.Install mysql and apache server on your system            
 2. change the connect.php file with your username and password              
